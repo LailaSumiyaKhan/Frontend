@@ -31,7 +31,8 @@
 
     <link rel="stylesheet" type="text/css" href="offcanvas.css"> 
 
-    <link rel="stylesheet" type="text/css" href="bounced.css">
+    
+    <link rel="stylesheet" type="text/css" href="businessunit.css">
 </head>
 <body>
     
@@ -55,27 +56,27 @@
                         <ul class="navbar-nav">
                             <header class="pb-3">
                                 <img class="  d-block  rounded-circle  img-fluid  m-auto" src="image/image1.jpg" height="50px" width="50px" > 
-                                <a class="navbar-brand fw-bold text-info px-2 me-auto" href="#">Shopfront Limited</a>
+                                <a class="navbar-brand fw-bold text-info px-2 me-auto" href="#">Frontend Project</a>
                               
                                 </header>
                            
                          <li>
-                            <div class="dropdown mt-2 ">
-                                <button class="btn btn-dark dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                           <div class="dropdown mt-2 ">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dashboard
                                 </button>
                                 <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item " href="bootstrap.html">Dashboard</a></li>
+                                     <li><a class="dropdown-item " href="index.html">Dashboard</a></li>
                                  <li><hr class="dropdown-divider text-white"></li>
                                  </ul>
                               </div>
-
-                            <div class="dropdown mt-2 ">
+                           
+                            <div class="dropdown mt-2">
                                 <button class="btn btn-dark dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Fund Management
                                 </button>
                                 <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item " href="cashmanagement.html">Cash Management</a></li>
+                                     <li><a class="dropdown-item bg-black active "  href="cashmanagement.html">Cash Management</a></li>
                                  <li><hr class="dropdown-divider text-white"></li>
                                   <li><a class="dropdown-item" href="bankmanagement.html">Bank Management</a></li>
                                   <li><hr class="dropdown-divider text-white"></li>
@@ -85,7 +86,7 @@
                               </div>
 
                               <div class="dropdown mt-2 ">
-                                <button class="btn btn-dark dropdown-toggle active" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Payment Request
                                 </button>
                                 <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
@@ -99,7 +100,6 @@
                                     <li><hr class="dropdown-divider text-white"></li>
                                 </ul>
                               </div>
-                              
                               <div class="dropdown mt-2 ">
                                 <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Report
@@ -143,6 +143,7 @@
                     </div>
                     </div>
 
+
                     <div class="btn-group">
 
                         <a class="btn  btn-dark  text-white " href="payment.html" role="button">Payment</a>
@@ -154,8 +155,6 @@
                         <a class="btn btn-dark text-white " href="settings.html" role="button"><i class="bi bi-gear"></i></a>
                         <li><hr class="dropdown-divider text-black"></li>
     
-    
-    
                         
                     </div>
                 </div>
@@ -163,40 +162,73 @@
     </div>
 
 
-
-                    <a href="#" class="dropdown-toggle text-white text-decoration-none font-size " data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-gear"></i></a>
-                    <span class="text-white"></i> </span>
-        
-                    <ul class="bg-secondary  dropdown-menu dropdown-menu-end">
-                        <a href="account_enrollment.html" style="text-decoration: none;"><li><button class="dropdown-item text-black " type="button ">Bank/Cash/Mobile Acs</button></li></a>  
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">Cost Type</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">Reports</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">Backup & Restore</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">User Management</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">company setup</button></li>
-                    </ul>
+    <div class="frm">
+    
+    <div class="container bg-light shadow-sm " >
+        <div class="pp border  shadow-lg px-3 ">
+            <form class="row g-3">
+                <div class="col-md-11">
+                  <label for="validationDefault01" class="form-label"></label>
+                  <input type="text" class="form-control form-control-sm" id="validationDefault01" placeholder="Business Unit Name" required>
                 </div>
-            </div>
-        </nav>
-       
 
-    </div>
+                <div class="col-sm-11 " >
+                    <div class="input-group  input-group-sm  ">
+                        <label for="validationDefault01" class="form-label"></label>
+                        <input type="text" class="form-control " placeholder="Default Entity" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                        <button class="btn btn-outline-secondary" type="button" id="validationDefault01"><a href="entityenrollment.html"    style="text-decoration: none; color: black;">Add</a></button>
+                      </div>
+                  </div>
+                  
+
+                  <div class="col-md-11 mb-3 mt-1">
+                    <label for="validationDefault01" class="form-label"></label>
+                    <input type="text" class="form-control form-control-sm" id="validationDefault01" placeholder="Additional Entity" >
+                  </div>
+
+
+        
+            
+               
+
+                
+                  <div class="col-sm-6 mt-0 mb-3" style="margin-left: 450px;margin-right: auto;" >
+                  <button class="btn btn-secondary btn-sm mx-1" type="submit">Save </button>
+                 
+                  <button class="btn btn-secondary btn-sm mx-1" type="submit">Deactive</button>
+                </div>
+              </form>
+            
+
+
+        </div>
+
+
+
+</div>
+
+
+
+<script src="bootstrap-validate.js"></script>
        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
 </body>
 </html>
+<script>
+    bootstrapValidate('#mymin','min:9:must be 9 characters!')
+    bootstrapValidate('#mymin','max:9:must be 9 characters!')
+    bootstrapValidate('#mymin','numeric:Enter only numbers')
+</script>
+
+
 <script type="text/javascript">
 	$(function(){
 $("#bootnavbar").bootnavbar();
 });
 </script>
+
 
 
 

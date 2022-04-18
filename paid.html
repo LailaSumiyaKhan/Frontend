@@ -10,28 +10,29 @@
     
 
 	<!--Animate CSS-->
-<link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 	<!--BootNavbar CSS-->
-<link rel="stylesheet" href="css/bootnavbar.css">
+    <link rel="stylesheet" href="css/bootnavbar.css">
 
-<!--BootNavbar Js-->
-<script src="js/bootnavbar.js"></script>
+    <!--BootNavbar Js-->
+    <script src="js/bootnavbar.js"></script>
 
     <link rel="stylesheet" type="text/css" href="offcanvas.css"> 
 
-    <link rel="stylesheet" type="text/css" href="paid.css">
+    
+    <link rel="stylesheet" type="text/css" href="userenrollment.css">
 </head>
 <body>
     
@@ -42,11 +43,9 @@
                     <span class="navbar-toggler-icon  "></span>
                 </button>
                 
-                <header class="">
-                   
-                    <a class="navbar-brand fw-bold px-2 me-auto" href="#">Paid</a>
-                  
-                    </header>
+                <header class="">                   
+                    <a class="navbar-brand fw-bold px-2 me-auto" href="#">Paid</a> 
+                </header>
                     
                
                 <div class="offcanvas offcanvas-start bg-dark text-white sidebar-nav" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
@@ -55,27 +54,26 @@
                         <ul class="navbar-nav">
                             <header class="pb-3">
                                 <img class="  d-block  rounded-circle  img-fluid  m-auto" src="image/image1.jpg" height="50px" width="50px" > 
-                                <a class="navbar-brand fw-bold text-info px-2 me-auto" href="#">Shopfront Limited</a>
-                              
-                                </header>
+                                <a class="navbar-brand fw-bold text-info px-2 me-auto" href="#">Frontend Project</a>
+                            </header>
                            
-                         <li>
-                            <div class="dropdown mt-2 ">
-                                <button class="btn btn-dark dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dashboard
-                                </button>
+                            <li>
+                                <div class="dropdown mt-2 ">
+                                    <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Dashboard
+                                    </button>
+                                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item " href="index.html">Dashboard</a></li>
+                                        <li><hr class="dropdown-divider text-white"></li>
+                                    </ul>
+                                </div>
+                            
+                                <div class="dropdown mt-2">
+                                    <button class="btn btn-dark dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Fund Management
+                                    </button>
                                 <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item " href="bootstrap.html">Dashboard</a></li>
-                                 <li><hr class="dropdown-divider text-white"></li>
-                                 </ul>
-                              </div>
-
-                            <div class="dropdown mt-2 ">
-                                <button class="btn btn-dark dropdown-toggle " type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Fund Management
-                                </button>
-                                <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
-                                     <li><a class="dropdown-item " href="cashmanagement.html">Cash Management</a></li>
+                                     <li><a class="dropdown-item bg-black active "  href="cashmanagement.html">Cash Management</a></li>
                                  <li><hr class="dropdown-divider text-white"></li>
                                   <li><a class="dropdown-item" href="bankmanagement.html">Bank Management</a></li>
                                   <li><hr class="dropdown-divider text-white"></li>
@@ -85,15 +83,15 @@
                               </div>
 
                               <div class="dropdown mt-2 ">
-                                <button class="btn btn-dark dropdown-toggle active" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
                                     Payment Request
                                 </button>
                                 <ul class="dropdown-menu bg-dark" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item bg-black active" href="new_request.html">New Request</a></li>
+                                    <li><a class="dropdown-item " href="new_request.html">New Request</a></li>
                                     <li><hr class="dropdown-divider text-white"></li>
                                     <li><a class="dropdown-item" href="pending_for_payment.html">Pending for payment</a></li>
                                     <li><hr class="dropdown-divider text-white"></li>
-                                    <li><a class="dropdown-item" href="paid.html">Paid</a></li>
+                                    <li><a class="dropdown-item bg-black active" href="paid.html">Paid</a></li>
                                     <li><hr class="dropdown-divider text-white"></li>
                                     <li><a class="dropdown-item" href="bounced.html">Bounced</a></li>
                                     <li><hr class="dropdown-divider text-white"></li>
@@ -112,33 +110,13 @@
                                         <li><a class="dropdown-item" href="#">Cash Register</a></li>
                                         <li><a class="dropdown-item" href="registerbookbank.html">Bank Register</a></li>
                                         <li><a class="dropdown-item" href="#">MFS Register</a></li>
-                                        <li><hr class="dropdown-divider text-white"></li>
-                                     
                                         
                                     </ul>
                                     </li>
-
-
-                                 <li class="dropdown">
-                                    <a class="dropdown-item bg-dark text-white dropdown-toggle" href="#" data-toggle="dropdown">Burn Report</a>
-                                <ul class="dropdown-menu bg-dark">
-                                    <li><hr class="dropdown-divider text-white"></li>
-                                    <li><a class="dropdown-item" href="rcfreport.html">RCF Report</a></li>
-                                    
-                                    <li><a class="dropdown-item" href="fcfreport.html">FCF Report</a></li>
-                                    <li><hr class="dropdown-divider text-white"></li>
-
-
-
-
-
-                                 
+                                 <li><hr class="dropdown-divider text-white"></li>
                              
                               </div>
-
-
-
-
+             
                     </div>
                     </div>
 
@@ -153,50 +131,130 @@
                         <a class="btn btn-dark text-white " href="settings.html" role="button"><i class="bi bi-gear"></i></a>
                         <li><hr class="dropdown-divider text-black"></li>
     
-    
-    
                         
                     </div>
                 </div>
             </nav>
     </div>
-                    <a href="#" class="dropdown-toggle text-white text-decoration-none font-size " data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-gear"></i></a>
-                    <span class="text-white"></i> </span>
-        
-                    <ul class="bg-secondary  dropdown-menu dropdown-menu-end">
-                        <a href="account_enrollment.html" style="text-decoration: none;"><li><button class="dropdown-item text-black " type="button ">Bank/Cash/Mobile Acs</button></li></a>  
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">Cost Type</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">Reports</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">Backup & Restore</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">User Management</button></li>
-                        <li><hr class="dropdown-divider text-black"></li>
-                        <li><button class="dropdown-item text-black" type="button">company setup</button></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-       
+    <style>
+        .error{
+          color: red;
+          font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="frm">
+    <div class="container bg-light shadow-sm " >
+        <div class="pp border  shadow-lg px-3 ">
+          <div class = "col-md-6 col-md-offset-3">
+              <div class = "panel panel-primary">
+                 
+                  <div class = "panel-body">
+                      <form id = "registration">
 
+                       
+                       
+                        <label for="validationDefault01" class="form-label"> </label>
+                        <input type="text" class="form-control form-control-sm" id="validationDefault01" placeholder="Name" style="width:500px;" required>
+
+                        <!-- Eikhane input er moddhe name = "acc_name" add korsi
+                        kono field input jodi must lage tahole oi input er moddhe
+                        name add kora lagbe, ekta then ekta naam dewa lagbe, jemon 
+                        eikhane ami acc_name disi, then js file e rules: er moddhe oita 
+                        add kora lagbe -->
+                        <div class="upper"style="width: 500px;">
+                            <input  type="number" class="form-control form-control-sm mt-4"  id="colFormLabelSm" name="acc_name" placeholder="ID" required>
+                        </div>
+                                
+                             
+                                <label for="validationDefault01" class="form-label " ></label>
+                                <!-- eikhaen name = "branch_name" add korsi id = "validationDefault01" delete korsi-->
+                                <input type="email" class="form-control form-control-sm mb-2"style="width:500px"  name="branch_name" placeholder="Email" required>
+                                
+              
+
+
+            
+
+
+
+                        <div class="input-group  input-group-sm mb-2 mt-4 " style="width: 500px;">
+                            <label for="validationDefault01" class="form-label"></label>
+                            <!-- name = "location" added -->
+                            <input type="number" class="form-control " placeholder="Contact Number" name="location" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+
+                          </div>
+
+
+                          <div class = "hobbies mt-3">
+                            <p class="mb-1"> <b>Loacation</b> </p>
+                            <label class="checkbox-inline px-1"><input type="checkbox" name = "gender">HQ</label>
+                            <label class="checkbox-inline px-1"><input type="checkbox" name = "gender">Local</label>
+
+                        </div>
+                          
+                          <div class = "hobbies mt-3 ">
+                              <p class="mb-1"><b> Default Role:</b></p>
+                              <label class="checkbox-inline px-1"><input type="checkbox" name = "hobbies">Admin</label>
+                              <label class="checkbox-inline px-1"><input type="checkbox" name = "hobbies">Coin Officer</label>
+                              <label class="checkbox-inline px-1"><input type="checkbox" name = "hobbies">Cluster Manager</label>
+                              <label class="checkbox-inline px-1"><input type="checkbox" name = "hobbies">FC</label>
+                              <label class="checkbox-inline px-1"><input type="checkbox" name = "hobbies">Treasury</label>
+                              <label class="checkbox-inline px-1"><input type="checkbox" name = "hobbies">Viewer/Auditor</label>
+                            </div>
+                          
+
+
+
+                          <div class="input-group  input-group-sm mt-3" style="width: 500px;">
+                            <label for="validationDefault01" class="form-label"></label>
+                            <!-- name = "bu_name" added -->
+                            <input type="text" class="form-control " placeholder="Default BU" name="bu_name" aria-label="Recipient's username" aria-describedby="button-addon2" required>
+                            <button class="btn btn-outline-secondary" type="button" name="fname" ><a href="businessunit.html" target="_blank"   style="text-decoration: none; color: black;">Add</a></button>
+                          </div>
+                       
+                       
+
+                         
+                          <div class="col-sm-8 mt-0 mb-3" style="margin-left: 400px;margin-right: auto;" >
+                          <button type = "submit" class = "btn btn-secondary btn-sm mt-3">Save & New</button>
+                          <button type = "submit" class = "btn btn-secondary btn-sm mt-3">Edit</button>
+                          <button type = "submit" class = "btn btn-secondary btn-sm mt-3">Deactive</button>
+                      </form>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
+</div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="userenrollment.js"></script>  
+
+
+<script src="bootstrap-validate.js"></script>
        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 
 </body>
 </html>
+<script>
+    bootstrapValidate('#mymin','min:9:must be 9 digit!')
+    bootstrapValidate('#mymin','max:9:must be 9 digit!')
+    bootstrapValidate('#mymin','numeric:Enter only numbers')
+    bootstrapValidate('#mymin','required:please fill out this form ')
+</script>
+
+
 <script type="text/javascript">
 	$(function(){
 $("#bootnavbar").bootnavbar();
 });
 </script>
-
-
-
-
 
 
 

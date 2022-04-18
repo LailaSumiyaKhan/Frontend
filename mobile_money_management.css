@@ -1,8 +1,14 @@
 
-.sidebar-nav .container{
-    
-}
+body{
 
+    background-color:lavenderblush;
+}
+  .form-control{
+    background-color:lavenderblush;
+}
+.form-control-sm{
+    background-color: lavenderblush;
+}
 
 .sidebar-nav ul li a {
     font-size: 26px;
@@ -62,6 +68,102 @@
 }
 .dropdown .offcanvas.show ul li a:hover span{
     padding-left: 10px;
+}
+
+table{
+    border: 1px solid black;
+
+   border-collapse: separate;
+   border-spacing: 0px;
+    width: 100%;
+    margin: auto;
+    
+    text-align: center;
+    
+    color:black;
+    min-width: max-content;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+ 
+    
+}
+
+
+ #show th,#show td{ 
+    border-collapse: separate;
+    border-spacing: 0px;
+    min-width: max-content;
+    padding: 10px;
+  
+
+}
+
+th{
+    font-size:12px ;
+
+    
+}
+#btna td input{
+    width: 100%;
+}
+.table .container{
+     background-color:;
+ }
+ .paid-from .dropdown .btn:hover{
+    background-color: white;
+}
+
+
+#custom-button{
+    padding: 10px;
+    color: black;
+    background-color: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#custom-button:hover{
+    background-color:whitesmoke;
+}
+#custom-text{
+    margin-left: 10px;
+    font-family: sans-serif;
+    color: #aaa;
+}
+#nameDiv{
+    margin-top: 50px;
+
+}
+.input{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+#entry{
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0 0.5);
+    margin: 10px;
+
+}
+
+
+td{
+    font-size:12px ;
+    color: black;
+    font-weight: 600;
+}
+.cc{
+    margin-top: 70px;
+}
+
 
 
 
